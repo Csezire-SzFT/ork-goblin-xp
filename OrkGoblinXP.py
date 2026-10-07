@@ -14,7 +14,7 @@ def get_positive_int(prompt_text: str):
         szoveg = input(prompt_text + " (-1 => kilépés): ").strip()
         if szoveg == "-1":
             sys.exit()
-        if szoveg.isdigit():
+        if szoveg.isdecimal():
             return int(szoveg)
         print("Hibás érték, próbáld újra!")
 
