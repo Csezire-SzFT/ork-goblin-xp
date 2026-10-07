@@ -52,6 +52,6 @@ try:
     aktual_xp = check_xp(aktual_xp, goblin_xp * goblin_db)
     print("Csata az orkokkal, db:", ork_db, "ork XP/db:",ork_xp)
     aktual_xp = check_xp(aktual_xp, ork_xp * ork_db)
-    print('A program vége... köszönjük az együttműködést!')
+    print('A program vége... köszönöm az együttműködést!')
 except SystemExit:
     print("Kilépés.")
